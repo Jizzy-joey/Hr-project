@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/johnlewu/Documents/charlie25/Hr-project/src/app/component/Button.jsx"],"sourcesContent":["\"use client\";\nimport { useRouter } from 'next/navigation'\nimport React from 'react'\n\nexport default function Button({ title }) {\n\n    const router = useRouter();\n\n    const handleClick = () => {\n        router.push(`/jobs/${title.toLowerCase().replace(/\\s+/g, '-')}`);\n        // This will navigate to the job description page with the title as a slug\n    }\n  return (\n    <button onClick={handleClick} className='flex flex-col items-center bg-black text-white px-4 py-2 rounded-md\n    hover:bg-green-900 transition-all duration-300 capitalize cursor-pointer'>\n        Read More\n\n    </button>\n  )\n}\n"],"names":[],"mappings":";;;;AACA;AACA;;;AAFA;;;AAIe,SAAS,OAAO,EAAE,KAAK,EAAE;;IAEpC,MAAM,SAAS,CAAA,GAAA,qIAAA,CAAA,YAAS,AAAD;IAEvB,MAAM,cAAc;QAChB,OAAO,IAAI,CAAC,CAAC,MAAM,EAAE,MAAM,WAAW,GAAG,OAAO,CAAC,QAAQ,MAAM;IAC/D,0EAA0E;IAC9E;IACF,qBACE,6LAAC;QAAO,SAAS;QAAa,WAAU;kBACkC;;;;;;AAK9E;GAfwB;;QAEL,qIAAA,CAAA,YAAS;;;KAFJ","debugId":null}},
+    {"offset": {"line": 51, "column": 0}, "map": {"version":3,"sources":["file:///Users/johnlewu/Documents/charlie25/Hr-project/node_modules/next/navigation.js"],"sourcesContent":["module.exports = require('./dist/client/components/navigation')\n"],"names":[],"mappings":"AAAA,OAAO,OAAO","ignoreList":[0],"debugId":null}}]
+}

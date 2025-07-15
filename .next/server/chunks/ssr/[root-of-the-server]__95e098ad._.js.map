@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 31, "column": 0}, "map": {"version":3,"sources":["file:///Users/johnlewu/Documents/charlie25/Hr-project/src/app/component/Button.jsx"],"sourcesContent":["\"use client\";\nimport { useRouter } from \"next/router\";\nimport { useState } from \"react\";\n\nexport default function Button({title }) {}\n    const router = useRouter();\n    const [isLoading, setIsLoading] = useState(false);\n    \n    const handleClick = () => {\n        setIsLoading(true);\n        // Simulate a network request\n        setTimeout(() => {\n        setIsLoading(false);\n        router.push(\"/jobs\");\n        }, 1000);\n    };\n    \n    return (\n        <button\n        onClick={handleClick}\n        className=\"bg-emerald-700 text-white px-4 py-2 rounded hover:bg-emerald-800 transition-colors\"\n        disabled={isLoading}\n        >\n        {isLoading ? \"Loading...\" : title}\n        </button>\n    );\n    "],"names":[],"mappings":";;;;AACA;AACA;AAFA;;;;AAIe,SAAS,OAAO,EAAC,OAAA,MAAK,EAAE,GAAG;AACtC,MAAM,SAAS,CAAA,GAAA,8HAAA,CAAA,YAAS,AAAD;AACvB,MAAM,CAAC,WAAW,aAAa,GAAG,CAAA,GAAA,qMAAA,CAAA,WAAQ,AAAD,EAAE;AAE3C,MAAM,cAAc;IAChB,aAAa;IACb,6BAA6B;IAC7B,WAAW;QACX,aAAa;QACb,OAAO,IAAI,CAAC;IACZ,GAAG;AACP;AAEA,qBACI,8OAAC;IACD,SAAS;IACT,WAAU;IACV,UAAU;cAET,YAAY,eAAe","debugId":null}}]
+}

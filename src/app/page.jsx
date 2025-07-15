@@ -1,11 +1,13 @@
-import Header from "./component/navigation/Header";
+import Header from "./component/Header";
+import JobCategory from "./component/JobCategory";
 
 export default function Home() {
   return (
     <>
     <div>
-     <Header />
+      <Header />
     </div>
+    <JobCategory />
     </>
   );
 }

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/johnlewu/Documents/charlie25/Hr-project/src/app/jobs/layout.jsx"],"sourcesContent":["import Categories from \"../component/Categories\";\nimport jobs from \"../data/jobs\";\n\nexport default function JobsLayout({ children }) {\n    return (\n        <div>\n            <Categories jobs={jobs} />\n            {children}\n        </div>\n    );\n}\n\n\n"],"names":[],"mappings":";;;;AAAA;AACA;;;;AAEe,SAAS,WAAW,EAAE,QAAQ,EAAE;IAC3C,qBACI,8OAAC;;0BACG,8OAAC,sIAAA,CAAA,UAAU;gBAAC,MAAM,0HAAA,CAAA,UAAI;;;;;;YACrB;;;;;;;AAGb","debugId":null}}]
+}

@@ -1827,31 +1827,19 @@ function Mobile() {
         setIsOpen(!isOpen);
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                className: "md:hidden p-2 text-slate-50",
-                onClick: toggleMenu,
-                "aria-label": "Toggle menu",
-                children: isOpen ? 'Close' : 'Menu'
-            }, void 0, false, {
+        children: isOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+            className: "flex flex-col items-center justify-center bg-green-700 text-slate-50 font-semibold text-2xl capitalize z-50 md:hidden",
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$component$2f$navigation$2f$NavData$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/src/app/component/navigation/Mobile.jsx",
-                lineNumber: 18,
-                columnNumber: 7
-            }, this),
-            isOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                className: "flex flex-col items-center justify-center bg-green-700 text-slate-50 font-semibold text-2xl capitalize z-50 md:hidden",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$component$2f$navigation$2f$NavData$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                    fileName: "[project]/src/app/component/navigation/Mobile.jsx",
-                    lineNumber: 27,
-                    columnNumber: 11
-                }, this)
-            }, void 0, false, {
-                fileName: "[project]/src/app/component/navigation/Mobile.jsx",
-                lineNumber: 26,
-                columnNumber: 9
+                lineNumber: 21,
+                columnNumber: 11
             }, this)
-        ]
-    }, void 0, true);
+        }, void 0, false, {
+            fileName: "[project]/src/app/component/navigation/Mobile.jsx",
+            lineNumber: 20,
+            columnNumber: 9
+        }, this)
+    }, void 0, false);
 }
 _s(Mobile, "+sus0Lb0ewKHdwiUhiTAJFoFyQ0=");
 _c = Mobile;

@@ -2,6 +2,7 @@ import { Roboto } from "next/font/google";
 import "./globals.css";
 import Nav from "./component/navigation/Nav";
 import Footer from "./component/Footer";
+import { SideProvider } from "./providers";
 
 const robo = Roboto({
   weight: [
@@ -29,8 +30,12 @@ export default function RootLayout({ children }) {
         className={robo.className}
       >
         <Nav />
-        
-        {children}
+      
+        <div className="min-h-screen">
+        <SideProvider>
+          {children}
+        </SideProvider>
+        </div>
 
 
         <Footer />

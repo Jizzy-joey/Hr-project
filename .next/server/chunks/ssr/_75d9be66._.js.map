@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 24, "column": 0}, "map": {"version":3,"sources":["file:///Users/johnlewu/Documents/charlie25/Hr-project/src/app/success/page.jsx"],"sourcesContent":["import { TiTick } from \"react-icons/ti\";\n\nexport default function SuccessPage() {\nreturn (\n    <div className=\"flex flex-col items-center justify-center h-screen space-y-4 text-center \">\n        <TiTick className=\"text-green-500 text-9xl\" />\n        <h1 className=\"text-3xl font-bold text-black\">Success</h1>\n        <p className=\"text-black\">Your changes have been saved successfully!<br /> Your application has been submitted for review. \n        </p>\n    </div>\n)\n}\n"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS;IACxB,qBACI,8OAAC;QAAI,WAAU;;0BACX,8OAAC,8IAAA,CAAA,SAAM;gBAAC,WAAU;;;;;;0BAClB,8OAAC;gBAAG,WAAU;0BAAgC;;;;;;0BAC9C,8OAAC;gBAAE,WAAU;;oBAAa;kCAA0C,8OAAC;;;;;oBAAK;;;;;;;;;;;;;AAIlF","debugId":null}}]
+}

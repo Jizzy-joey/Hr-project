@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className="bg-green-800 text-white">
+    <footer className="bg-amber-600 text-white">
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
@@ -64,7 +64,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-green-700 mt-8 pt-6">
+        <div className="border-t border-black mt-8 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-sm">
               &copy; {new Date().getFullYear()} Nija Jobs. All rights reserved.

@@ -16,17 +16,17 @@ export default function JobCategory() {
 
     return (
       <section>
-        <h2 className="text-3xl font-bold text-center py-4 my-8 border-b-8 w-fit border-emerald-700">
+        <h2 className="text-3xl font-bold text-center py-4 my-8 border-b-8 w-fit border-amber-600">
           Best Jobs Available
         </h2>
         <div>
           <JobCard val="6" />
         </div>
         <section>
-          <h2 className="text-2xl font-bold text-center py-4 my-8 border-b-8 w-fit border-emerald-700">
+          <h2 className="text-2xl font-bold text-center py-4 my-8 border-b-8 w-fit border-amber-600">
             MAJOR COMPANY'S LOOKING FOR WORKERS
           </h2>
-          <Slideshow images={companyImages} />
+          <Slideshow className="my-4" images={companyImages} />
         </section>
       </section>
     );
@@ -58,14 +58,7 @@ export default function JobCategory() {
               className="object-contain w-full h-full"
             />
           </div>
-          <div className="mt-4 flex gap-2">
-            <button onClick={prevSlide} className="px-4 py-2 bg-emerald-700 text-white rounded hover:bg-emerald-800 transition">
-              Prev
-            </button>
-            <button onClick={nextSlide} className="px-4 py-2 bg-emerald-700 text-white rounded hover:bg-emerald-800 transition">
-              Next
-            </button>
-          </div>
+         
         </div>
       );
     }

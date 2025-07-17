@@ -1,11 +1,19 @@
 {
+  "/(DashGroup)/dashboard/page": "app/(DashGroup)/dashboard/page.js",
+  "/(DashGroup)/saves/page": "app/(DashGroup)/saves/page.js",
   "/_not-found/page": "app/_not-found/page.js",
   "/about/page": "app/about/page.js",
   "/apply/[id]/page": "app/apply/[id]/page.js",
   "/contact/page": "app/contact/page.js",
+  "/faq/page": "app/faq/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/jobs/[slug]/page": "app/jobs/[slug]/page.js",
   "/jobs/category/[cat]/page": "app/jobs/category/[cat]/page.js",
   "/jobs/page": "app/jobs/page.js",
-  "/page": "app/page.js"
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js",
+  "/post-job/page": "app/post-job/page.js",
+  "/privacy/page": "app/privacy/page.js",
+  "/signup/page": "app/signup/page.js",
+  "/success/page": "app/success/page.js"
 }

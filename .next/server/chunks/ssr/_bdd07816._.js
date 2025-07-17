@@ -66,16 +66,21 @@ __turbopack_context__.n(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$a
 
 var { g: global, __dirname } = __turbopack_context__;
 {
-// import SavesButton from "@/app/component/SavesButton";
 __turbopack_context__.s({
     "default": (()=>jobDescription)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+(()=>{
+    const e = new Error("Cannot find module '@/app/component/SavesButton'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$component$2f$Button$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/app/component/Button.jsx [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$data$2f$jobs$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/app/data/jobs.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$im$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react-icons/im/index.mjs [app-rsc] (ecmascript)");
+;
 ;
 ;
 ;
@@ -271,23 +276,33 @@ async function jobDescription({ params }) {
                 columnNumber: 10
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                    href: `/apply/${jobDetails.title.toLocaleLowerCase().replace(/\s+/g, '-')}`,
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-                        type: "button",
-                        value: `${Math.ceil((new Date(jobDetails.endDate) - new Date()) / (1000 * 60 * 60 * 24))} days left - Apply Now`,
-                        className: "bg-black text-white px-4 py-2 rounded-md hover:bg-green-900 transition-all duration-300 cursor-pointer flex items-center justify-center space-x-2"
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                        href: `/apply/${jobDetails.title.toLocaleLowerCase().replace(/\s+/g, '-')}`,
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                            type: "button",
+                            value: `${Math.ceil((new Date(jobDetails.endDate) - new Date()) / (1000 * 60 * 60 * 24))} days left - Apply Now`,
+                            className: "bg-black text-white px-4 py-2 rounded-md hover:bg-green-900 transition-all duration-300 cursor-pointer flex items-center justify-center space-x-2"
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/jobs/[slug]/page.jsx",
+                            lineNumber: 80,
+                            columnNumber: 20
+                        }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/jobs/[slug]/page.jsx",
-                        lineNumber: 80,
-                        columnNumber: 20
+                        lineNumber: 79,
+                        columnNumber: 16
+                    }, this),
+                    new Date(jobDetails.endDate) > new Date() && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(SavesButton, {
+                        title: jobDetails.title,
+                        company: jobDetails.company
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/jobs/[slug]/page.jsx",
+                        lineNumber: 88,
+                        columnNumber: 19
                     }, this)
-                }, void 0, false, {
-                    fileName: "[project]/src/app/jobs/[slug]/page.jsx",
-                    lineNumber: 79,
-                    columnNumber: 16
-                }, this)
-            }, void 0, false, {
+                ]
+            }, void 0, true, {
                 fileName: "[project]/src/app/jobs/[slug]/page.jsx",
                 lineNumber: 78,
                 columnNumber: 13

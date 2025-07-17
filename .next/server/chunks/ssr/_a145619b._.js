@@ -23,7 +23,7 @@ function Button({ title }) {
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
         onClick: handleClick,
-        className: "flex flex-col items-center bg-black text-white px-4 py-2 rounded-md hover:bg-green-900 transition-all duration-300 capitalize cursor-pointer",
+        className: "flex flex-col items-center bg-black text-white px-4 py-2 rounded-md hover:bg-amber-700 transition-all duration-300 capitalize cursor-pointer",
         children: "Read More"
     }, void 0, false, {
         fileName: "[project]/src/app/component/Button.jsx",
@@ -51,23 +51,24 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$component$2f$B
 ;
 function JobCard(props) {
     const jobList = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$data$2f$jobs$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"].map((job)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
-            className: "job-card",
+            className: "flex flex-col bg-white rounded-lg shadow-lg border border-gray-300 overflow-hidden",
             children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                    className: "flex flex-row items-center gap-2 text-2xl font-bold text-black border-b-2 border-gray-700 p-4",
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "flex flex-col items-center gap-2 bg-gray-200 p-4 border-b border-gray-300",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$im$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ImFlattr"], {
-                            className: "text-3xl text-green-700"
+                            className: "text-3xl text-amber-600"
                         }, void 0, false, {
                             fileName: "[project]/src/app/component/JobCard.jsx",
-                            lineNumber: 12,
+                            lineNumber: 11,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                            className: "text-2xl font-bold text-black",
                             children: job.company
                         }, void 0, false, {
                             fileName: "[project]/src/app/component/JobCard.jsx",
-                            lineNumber: 13,
+                            lineNumber: 12,
                             columnNumber: 9
                         }, this)
                     ]
@@ -77,44 +78,44 @@ function JobCard(props) {
                     columnNumber: 7
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex flex-col items-center justify-center text-lg p-4",
+                    className: "flex flex-col items-center justify-center p-6",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "flex flex-col items-center text-3xl font-bold text-gray-800 p-4",
+                            className: "text-2xl font-bold text-gray-800 mb-2",
                             children: job.title
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/component/JobCard.jsx",
+                            lineNumber: 15,
+                            columnNumber: 9
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "text-gray-600 mb-1",
+                            children: job.category
                         }, void 0, false, {
                             fileName: "[project]/src/app/component/JobCard.jsx",
                             lineNumber: 16,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "flex flex-col items-center text-gray-600",
-                            children: job.category
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/component/JobCard.jsx",
-                            lineNumber: 19,
-                            columnNumber: 9
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "flex flex-col items-center text-gray-600",
+                            className: "text-gray-600 mb-4",
                             children: job.location
                         }, void 0, false, {
                             fileName: "[project]/src/app/component/JobCard.jsx",
-                            lineNumber: 22,
+                            lineNumber: 17,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$component$2f$Button$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                            className: "flex flex-row justify-center items-center ",
+                            className: "w-full",
                             title: job.title
                         }, void 0, false, {
                             fileName: "[project]/src/app/component/JobCard.jsx",
-                            lineNumber: 26,
+                            lineNumber: 18,
                             columnNumber: 9
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/component/JobCard.jsx",
-                    lineNumber: 15,
+                    lineNumber: 14,
                     columnNumber: 7
                 }, this)
             ]
@@ -132,12 +133,12 @@ function JobCard(props) {
                 children: card
             }, index, false, {
                 fileName: "[project]/src/app/component/JobCard.jsx",
-                lineNumber: 38,
+                lineNumber: 30,
                 columnNumber: 17
             }, this))
     }, void 0, false, {
         fileName: "[project]/src/app/component/JobCard.jsx",
-        lineNumber: 32,
+        lineNumber: 24,
         columnNumber: 5
     }, this);
 }
@@ -192,7 +193,7 @@ function JobCategory() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                className: "text-3xl font-bold text-center py-4 my-8 border-b-8 w-fit border-emerald-700",
+                className: "text-3xl font-bold text-center py-4 my-8 border-b-8 w-fit border-amber-600",
                 children: "Best Jobs Available"
             }, void 0, false, {
                 fileName: "[project]/src/app/component/JobCategory.jsx",
@@ -215,7 +216,7 @@ function JobCategory() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        className: "text-2xl font-bold text-center py-4 my-8 border-b-8 w-fit border-emerald-700",
+                        className: "text-2xl font-bold text-center py-4 my-8 border-b-8 w-fit border-amber-600",
                         children: "MAJOR COMPANY'S LOOKING FOR WORKERS"
                     }, void 0, false, {
                         fileName: "[project]/src/app/component/JobCategory.jsx",
@@ -223,6 +224,7 @@ function JobCategory() {
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(Slideshow, {
+                        className: "my-4",
                         images: companyImages
                     }, void 0, false, {
                         fileName: "[project]/src/app/component/JobCategory.jsx",
@@ -260,55 +262,26 @@ function JobCategory() {
         }
         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex flex-col items-center",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "w-full max-w-2xl h-48 flex items-center justify-center",
-                    children: [
-                        " ",
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                            src: images[index].src,
-                            alt: images[index].alt,
-                            className: "object-contain w-full h-full"
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/component/JobCategory.jsx",
-                            lineNumber: 55,
-                            columnNumber: 13
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/src/app/component/JobCategory.jsx",
-                    lineNumber: 54,
-                    columnNumber: 11
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "mt-4 flex gap-2",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            onClick: prevSlide,
-                            className: "px-4 py-2 bg-emerald-700 text-white rounded hover:bg-emerald-800 transition",
-                            children: "Prev"
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/component/JobCategory.jsx",
-                            lineNumber: 62,
-                            columnNumber: 13
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            onClick: nextSlide,
-                            className: "px-4 py-2 bg-emerald-700 text-white rounded hover:bg-emerald-800 transition",
-                            children: "Next"
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/component/JobCategory.jsx",
-                            lineNumber: 65,
-                            columnNumber: 13
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/src/app/component/JobCategory.jsx",
-                    lineNumber: 61,
-                    columnNumber: 11
-                }, this)
-            ]
-        }, void 0, true, {
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "w-full max-w-2xl h-48 flex items-center justify-center",
+                children: [
+                    " ",
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                        src: images[index].src,
+                        alt: images[index].alt,
+                        className: "object-contain w-full h-full"
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/component/JobCategory.jsx",
+                        lineNumber: 55,
+                        columnNumber: 13
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/src/app/component/JobCategory.jsx",
+                lineNumber: 54,
+                columnNumber: 11
+            }, this)
+        }, void 0, false, {
             fileName: "[project]/src/app/component/JobCategory.jsx",
             lineNumber: 53,
             columnNumber: 9

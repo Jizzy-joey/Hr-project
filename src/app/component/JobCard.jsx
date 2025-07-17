@@ -6,24 +6,16 @@ import Button from "./Button";
 
 export default function JobCard(props) {
   const jobList = jobs.map((job) => (
-    <article key={job.id} className="job-card">
-      <p className="flex flex-col items-center gap-2 text-2xl font-bold text-black
-        border-b-2 border-gray-700 p-4">
-        <ImFlattr className="text-3xl text-green-700" />
-        <span>{job.company}</span>
-      </p>
-      <div className="flex flex-col items-center justify-center text-lg p-4">
-        <h2 className="flex flex-col items-center text-3xl font-bold text-gray-800 p-4">
-            {job.title}
-        </h2>
-        <p className="flex flex-col items-center text-gray-600">
-            {job.category}
-        </p>
-        <p className="flex flex-col items-center text-gray-600">
-            {job.location}
-        </p>
-
-        <Button className="flex flex-row justify-center items-center " title={job.title} />
+    <article key={job.id} className="flex flex-col bg-white rounded-lg shadow-lg border border-gray-300 overflow-hidden">
+      <div className="flex flex-col items-center gap-2 bg-gray-200 p-4 border-b border-gray-300">
+        <ImFlattr className="text-3xl text-amber-600" />
+        <span className="text-2xl font-bold text-black">{job.company}</span>
+      </div>
+      <div className="flex flex-col items-center justify-center p-6">
+        <h2 className="text-2xl font-bold text-gray-800 mb-2">{job.title}</h2>
+        <p className="text-gray-600 mb-1">{job.category}</p>
+        <p className="text-gray-600 mb-4 space-x-3">{job.location}</p>
+        <Button className="w-full" title={job.title} />
       </div>
     </article>
   ));

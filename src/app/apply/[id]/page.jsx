@@ -1,5 +1,6 @@
 
 "use client";
+import Success from '@/app/component/Success';
 // import Success from '@/app/component/Success';
 import { useParams } from 'next/navigation';
 
@@ -19,26 +20,26 @@ export default function JobApplication() {
                  rounded-md shadow-sm focus:ring focus:ring-opacity-50" value={id.replaceAll("-", " ").toUpperCase()} disabled />
             </div>
             <div>
-                <label className='block text-sm font-medium text-blue-900' htmlFor="name">Name:</label>
+                <label className='block text-sm font-medium text-amber-600' htmlFor="name">Name:</label>
                 <input type="text" id="name" name="name" required className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring focus:ring-opacity-50"/>
 
             </div>
         <div>
-            <label className='block text-sm font-medium text-blue-900' htmlFor="email">Email:</label>
+            <label className='block text-sm font-medium text-amber-600' htmlFor="email">Email:</label>
             <input type="email" id="email" name="email" required className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring focus:ring-opacity-50" />
         </div>
 
         <div>
-            <label className='block text-sm font-medium text-blue-900' htmlFor="resume">Resume:</label>
+            <label className='block text-sm font-medium text-amber-600' htmlFor="resume">Resume:</label>
                 <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx"
                  required className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring focus:ring-opacity-50"       />
             </div>
         <div>
-            <label className='block text-sm font-medium text-blue-900' htmlFor="coverLetter">Cover Letter:</label>
+            <label className='block text-sm font-medium text-amber-600' htmlFor="coverLetter">Cover Letter:</label>
             <textarea id="coverLetter" name="coverLetter" rows="4" required className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring focus:ring-opacity-50"></textarea>
         </div>
         <div>
-            <label className='block text-sm font-medium text-blue-900' htmlFor="coverLetter">Cover Letter:</label>
+            <label className='block text-sm font-medium text-amber-600' htmlFor="coverLetter">Cover Letter:</label>
                 <input type="file" id="coverLetter" name="coverLetter" accept=".pdf,.doc,.docx"
                  required className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm focus:ring focus:ring-opacity-50"       />
             </div>
@@ -49,6 +50,7 @@ export default function JobApplication() {
         </div>
         
         <p>We will review your application and get back to you soon.</p>
+        <Success />
     
         </form>
     </div>

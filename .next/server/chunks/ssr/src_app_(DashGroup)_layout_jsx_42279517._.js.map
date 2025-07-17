@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/johnlewu/Documents/charlie25/Hr-project/src/app/%28DashGroup%29/layout.jsx"],"sourcesContent":["import DashNav from \"../component/DasNav\";\n\nexport default function DashboardGroup({ children }) {\n  return (\n    <div>\n      <DashNav />\n        {children}\n    </div>\n  )\n}\n"],"names":[],"mappings":";;;;;;;;;;;AAEe,SAAS,eAAe,EAAE,QAAQ,EAAE;IACjD,qBACE,8OAAC;;0BACC,8OAAC;;;;;YACE;;;;;;;AAGT","debugId":null}}]
+}

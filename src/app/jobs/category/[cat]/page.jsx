@@ -11,7 +11,7 @@ export default function JobCategory({params}) {
        <article key={job.id} className="job-card p-4 m-4 bg-gray-100 rounded shadow-md border border-gray-700">
             <p className="flex items-center justify-center
             blue-900  p-2  ">
-                <ImFlattr className="text-2xl ml-2 text-green-700"/>
+                <ImFlattr className="text-2xl ml-2 text-amber-600"/>
                 <span>{job.company}</span>
             </p>
             <div className="flex flex-col items-center justify-center text-lg

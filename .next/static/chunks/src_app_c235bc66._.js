@@ -1565,7 +1565,7 @@ function NavData() {
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                         href: "/",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$im$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ImFlattr"], {
-                            className: "text-8xl text-white bg-green-700 p-2"
+                            className: "text-8xl text-white bg-amber-600 p-2"
                         }, void 0, false, {
                             fileName: "[project]/src/app/component/navigation/NavData.jsx",
                             lineNumber: 11,
@@ -1644,6 +1644,20 @@ function NavData() {
                         fileName: "[project]/src/app/component/navigation/NavData.jsx",
                         lineNumber: 24,
                         columnNumber: 21
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            href: "/post-job",
+                            children: "Post Job"
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/component/navigation/NavData.jsx",
+                            lineNumber: 28,
+                            columnNumber: 25
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/component/navigation/NavData.jsx",
+                        lineNumber: 27,
+                        columnNumber: 21
                     }, this)
                 ]
             }, void 0, true, {
@@ -1656,12 +1670,12 @@ function NavData() {
                     jobs: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$data$2f$jobs$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
                 }, void 0, false, {
                     fileName: "[project]/src/app/component/navigation/NavData.jsx",
-                    lineNumber: 29,
+                    lineNumber: 32,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/component/navigation/NavData.jsx",
-                lineNumber: 28,
+                lineNumber: 31,
                 columnNumber: 16
             }, this)
         ]

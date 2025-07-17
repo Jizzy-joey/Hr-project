@@ -1,6 +1,5 @@
 
-
-// import SavesButton from "@/app/component/SavesButton";
+import SavesButton from "@/app/component/SaveButton";
 import Button from "@/app/component/Button";
 import jobs from "@/app/data/jobs";
 import Image from "next/image";
@@ -40,7 +39,7 @@ export default async function jobDescription({ params }) {
              text-white px-4 py-2 rounded-lg flex justify-between
                 ${Math.ceil((new Date(jobDetails.endDate)
                  - new Date()) / (1000 * 60 * 60 * 24)) < 4 ?
-                  'bg-red-500 animate-pulse' : 'bg-green-900'}`}>
+                  'bg-red-500 animate-pulse' : 'bg-amber-600'}`}>
                     {Math.ceil((new Date(jobDetails.endDate) - new Date()) / (1000 * 60 * 60 * 24)) < 0
                         ? 'Expired'
                         : 'Days Left: ' + Math.ceil((new Date(jobDetails.endDate) - new Date()) / (1000 * 60 * 60 * 24))}
@@ -48,7 +47,7 @@ export default async function jobDescription({ params }) {
 
                 <div className="flex flex-col items-start justify-center p-4 bg-gray-100
                  rounded-lg shadow-md border border-gray-700">
-                    <ImFlattr className="text-3xl text-green-700 " />
+                    <ImFlattr className="text-3xl text-amber-700 " />
         <h2 className="text-2xl font-bold">{jobDetails.company}</h2>
         <h3 className="text-xl font-semibold">{jobDetails.location}</h3>
         <p className="text-lg">{jobDetails.category}</p>
@@ -62,7 +61,7 @@ export default async function jobDescription({ params }) {
          <section>
             <h2 className="capitalize text-3xl font-bold">Job Description</h2>
 
-            <p className="text-lg text-green-900">{jobDetails.description}</p>
+            <p className="text-lg text-amber-600">{jobDetails.description}</p>
          </section>
 
          <section>
@@ -80,13 +79,13 @@ export default async function jobDescription({ params }) {
                    <input type="button" value={`${Math.ceil((new Date(jobDetails.endDate) - 
                    new Date()) / (1000 * 60 * 60 * 24))} days left - Apply Now`}       
                    className="bg-black text-white px-4 py-2 rounded-md
-                   hover:bg-green-900 transition-all duration-300 cursor-pointer
+                   hover:bg-amber-600 transition-all duration-300 cursor-pointer
                    flex items-center justify-center space-x-2"/>
                </Link>
-               {/* {
+               {
                   new Date(jobDetails.endDate) > new Date() &&
                   <SavesButton title={jobDetails.title} company={jobDetails.company} />
-               } */}
+               }
 
             </section>
 
@@ -97,7 +96,7 @@ export default async function jobDescription({ params }) {
                    {jobRelated.map((job) => (
                        <Link key={job.id} href={`/jobs/${job.title.toLocaleLowerCase().replace(/\s+/g, '-')}`}
                        className="flex flex-col items-start justify-center
-                        p-4 bg-black rounded-lg shadow-md hover:bg-green-900 transition-all duration-300">
+                        p-4 bg-black rounded-lg shadow-md hover:bg-amber-600 transition-all duration-300">
                            <h3 className="text-lg text-slate-100 hover:underline">{job.title}</h3>
                             <p className="text-sm text-slate-100">{job.company}</p>
                             <p className="text-sm text-slate-100">{job.location}</p>

@@ -12,7 +12,7 @@ export default function Button({ title }) {
     }
   return (
     <button onClick={handleClick} className='flex flex-col items-center bg-black text-white px-4 py-2 rounded-md
-    hover:bg-green-900 transition-all duration-300 capitalize cursor-pointer'>
+    hover:bg-amber-700 transition-all duration-300 capitalize cursor-pointer'>
         Read More
 
     </button>

@@ -1,6 +1,4 @@
 {
-  "/apply/[id]/page": "app/apply/[id]/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/jobs/[slug]/page": "app/jobs/[slug]/page.js",
+  "/(DashGroup)/dashboard/page": "app/(DashGroup)/dashboard/page.js",
   "/page": "app/page.js"
 }

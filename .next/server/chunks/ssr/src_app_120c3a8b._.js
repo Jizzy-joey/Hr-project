@@ -721,7 +721,7 @@ const PostJobsPage = ()=>{
                         style: {
                             width: '100%',
                             padding: '12px',
-                            background: '#db740dff',
+                            background: 'black',
                             color: '#fff',
                             border: 'none',
                             borderRadius: '6px',
@@ -752,18 +752,19 @@ const PostJobsPage = ()=>{
                     borderRadius: '8px',
                     color: '#2c7a7b',
                     textAlign: 'center',
-                    fontWeight: '500'
+                    fontWeight: '500',
+                    transition: '#ED7014'
                 },
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                     children: "Job posted successfully!"
                 }, void 0, false, {
                     fileName: "[project]/src/app/post-job/page.jsx",
-                    lineNumber: 146,
+                    lineNumber: 148,
                     columnNumber: 21
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/post-job/page.jsx",
-                lineNumber: 137,
+                lineNumber: 138,
                 columnNumber: 17
             }, this)
         ]

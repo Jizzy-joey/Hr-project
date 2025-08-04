@@ -119,7 +119,7 @@ const PostJobsPage = () => {
                     style={{
                         width: '100%',
                         padding: '12px',
-                        background: '#db740dff',
+                        background: 'black',
                         color: '#fff',
                         border: 'none',
                         borderRadius: '6px',
@@ -128,6 +128,7 @@ const PostJobsPage = () => {
                         cursor: 'pointer',
                         marginTop: '8px',
                         transition: 'background 0.2s'
+                        
                     }}
                 >
                     Post Job
@@ -141,7 +142,8 @@ const PostJobsPage = () => {
                     borderRadius: '8px',
                     color: '#2c7a7b',
                     textAlign: 'center',
-                    fontWeight: '500'
+                    fontWeight: '500',
+                    transition: '#ED7014'
                 }}>
                     <p>Job posted successfully!</p>
                 </div>

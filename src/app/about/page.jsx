@@ -246,14 +246,14 @@ export default function AboutPage() {
                     Discover how our HR solutions can help your business thrive in today's competitive landscape.
                 </p>
                 <Link href="/contact" style={{
-                    backgroundColor: 'darkgreen',
+                    backgroundColor: 'black',
                     color: 'white',
                     padding: '0.8rem 2rem',
                     borderRadius: 4,
                     textDecoration: 'none',
                     fontWeight: 'bold',
                     display: 'inline-block',
-                    transition: 'background-color 0.3s ease'
+                    transition: '#ED7014 0.3s ease'
                 }}>
                     Contact Us Today
                 </Link>

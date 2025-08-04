@@ -4,7 +4,8 @@ import NavData from "./NavData";
 
 export default function Desktop() {
     return (
-       <ul className="p-4 bg-black text-white flex flex-col md:flex-row items-center justify-between space-y-2 md:space-y-0 md:space-x-8 shadow-md text-lg">
+       <ul className="md:flex space-x-4 md:flex-row hidden justify-around items-center
+            text-slate-50 bg-amber-700 h-32 font-semibold text-2xl capitalize">
            <NavData />
            
 
